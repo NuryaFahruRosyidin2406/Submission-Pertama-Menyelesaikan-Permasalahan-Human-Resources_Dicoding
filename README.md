@@ -6,11 +6,18 @@ Jaya Jaya Maju merupakan salah satu perusahaan multinasional yang telah berdiri 
 
 ### Permasalahan Bisnis
 
-Tuliskan seluruh permasalahan bisnis yang akan diselesaikan.
+Apa saja faktor utama yang membuat karyawan keluar dari perusahaan (attrition), dan bagaimana profil karyawan yang paling rentan untuk keluar agar HR bisa menyusun strategi pencegahan yang tepat?
 
 ### Cakupan Proyek
 
-Tuliskan cakupan proyek yang akan dikerjakan.
+Pada proyek ini, business dashboard akan dibuat untuk memonitori dan menganalisis faktor-faktor yang memengaruhi tingkat keluar-masuk karyawan (attrition) di perusahaan.
+Berikut ini ada beberapa pertanyaan utama yang akan dicari jawabannya dalam proyek ini:
+
+1.    Berapa total tingkat attrition karyawan saat ini di perusahaan?
+2.    Apakah beban kerja dan lembur (OverTime) menjadi pemicu utama karyawan keluar?
+3.    Bagaimana pengaruh finansial (seperti gaji dan tingkat kenaikan gaji) terhadap attrition?
+4.    Bagaimana hubungan antara tingkat kepuasan kerja dan work-life balance dengan keputusan karyawan untuk resign?
+5.    Departemen, posisi kerja, atau kelompok demografi mana yang memiliki risiko attrition paling tinggi?
 
 ### Persiapan
 
