@@ -2,7 +2,7 @@
 
 ## Business Understanding
 
-Jelaskan latar belakang bisnis dari perushaan tersebut.
+Jaya Jaya Maju merupakan salah satu perusahaan multinasional yang telah berdiri sejak tahun 2000 dan telah berkembang pesat hingga memiliki lebih dari 1000 karyawan di seluruh penjuru negeri. Namun, seiring bertambah besarnya skala organisasi, perusahaan tersebut menghadapi tantangan besar dalam manajemen sumber daya manusia (HR). Perusahaan mengalami tingginya attrition rate (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) yang menembus angka diatas 10%. Untuk mencegah hal ini semakin parah, manajer departemen HR meminta bantuan dalam mengidentifikasi berbagai faktor yang mempengaruhi tingginya attrition rate tersebut dan menyusun strategi retensi yang efektif.
 
 ### Permasalahan Bisnis
 
