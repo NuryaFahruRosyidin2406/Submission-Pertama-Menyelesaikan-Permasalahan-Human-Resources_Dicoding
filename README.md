@@ -27,7 +27,7 @@ Berikut ini ada beberapa pertanyaan utama yang akan dicari jawabannya dalam proy
 
 1. **Upload Dataset dari Google Colab ke Supabase (PostgreSQL)**
 
-   ```python
+   ```
    # 1. Instalasi library yang dibutuhkan
    !pip install pandas sqlalchemy
 
@@ -54,13 +54,21 @@ Berikut ini ada beberapa pertanyaan utama yang akan dicari jawabannya dalam proy
    # Data berhasil diunggah ke Supabase
    ```
    
-2. **Menjalankan Metabase Menggunakan Docker (Local Machine)**
+3. **Menjalankan Metabase Menggunakan Docker (Local Machine)**
 
-   ```Bash
+   Command Prompt
+   ```
    docker run -p 3000:3000 --name metabase metabase/metabase
    ```
+
+   Jika nama container sudah ada, maka jalankan kembali container Metabase
+
+   Command Prompt
+   ```
+   docker start metabase
+   ```
    
-3. **Koneksi dan Analisis Data di Metabase Dapat Diakses Melalui Browser di http://localhost:3000**
+5. **Koneksi dan Analisis Data di Metabase Dapat Diakses Melalui Browser di http://localhost:3000/setup**
 
 ## Business Dashboard
 
