@@ -50,13 +50,14 @@ Berikut ini ada beberapa pertanyaan utama yang akan dicari jawabannya dalam proy
 
    # 5. Mengirimkan dataset ke tabel di Supabase
    df.to_sql('employee_data', engine)
-   print("Data berhasil diunggah ke Supabase")
+
+   # Data berhasil diunggah ke Supabase
    ```
    
 2. **Menjalankan Metabase Menggunakan Docker (Local Machine)**
 
    ```Bash
-   docker run -d -p 3000:3000 --name metabase metabase/metabase
+   docker run -p 3000:3000 --name metabase metabase/metabase
    ```
    
 3. **Koneksi dan Analisis Data di Metabase Dapat Diakses Melalui Browser di http://localhost:3000**
