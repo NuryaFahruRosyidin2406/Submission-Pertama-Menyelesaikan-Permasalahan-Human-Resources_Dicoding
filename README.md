@@ -21,13 +21,45 @@ Berikut ini ada beberapa pertanyaan utama yang akan dicari jawabannya dalam proy
 
 ### Persiapan
 
-Sumber data: ....
+**Sumber data:** Dataset internal karyawan Jaya Jaya Maju ('employee_data.csv') yang mencakup variabel demografi, kepuasan kerja, kompensasi, jam kerja, dan status attrition.
 
-Setup environment:
+**Setup environment:**
 
-```
+1. **Upload Dataset dari Google Colab ke Supabase (PostgreSQL)**
 
-```
+   ```python
+   # 1. Instalasi library yang dibutuhkan
+   !pip install pandas sqlalchemy
+
+   # 2. Import library
+   import pandas as pd
+   from sqlalchemy import create_engine
+   from getpass import getpass
+
+   # 3. Membaca dataset dari penyimpanan GitHub
+   df = pd.read_csv(
+    "https://raw.githubusercontent.com/NuryaFahruRosyidin2406/Submission-Pertama-Menyelesaikan-Permasalahan-Human-Resources_Dicoding/refs/heads/main/Dataset/employee_data.csv",
+    encoding='windows-1252'
+   )
+
+   # 4. Koneksi ke Database Supabase menggunakan URI Connection PostgreSQL
+   password = getpass("Masukkan Password Supabase: ")
+   # Format URI: postgresql://[user]:[password]@[host]:[port]/[dbname]
+   URL = f"postgresql://postgres.lhdwpwanyxgcdphjwzji:{password}@aws-0-ap-northeast-1.pooler.supabase.com:6543/postgres"
+   engine = create_engine(URL)
+
+   # 5. Mengirimkan dataset ke tabel di Supabase
+   df.to_sql('employee_data', engine)
+   print("Data berhasil diunggah ke Supabase")
+   ```
+   
+2. **Menjalankan Metabase Menggunakan Docker (Local Machine)**
+
+   ```Bash
+   docker run -d -p 3000:3000 --name metabase metabase/metabase
+   ```
+   
+3. **Koneksi dan Analisis Data di Metabase Dapat Diakses Melalui Browser di http://localhost:3000**
 
 ## Business Dashboard
 
