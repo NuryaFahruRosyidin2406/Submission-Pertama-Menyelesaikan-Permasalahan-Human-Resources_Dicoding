@@ -53,7 +53,16 @@ Berikut ini ada beberapa pertanyaan utama yang akan dicari jawabannya dalam proy
 
    # Data berhasil diunggah ke Supabase
    ```
-   
+
+2. **Pengecekan dataset kembali di Supabase dan tambahkan query untuk clean dataset yang perlu ditambahkan**
+
+   Query
+   ```
+   UPDATE employee_data
+   SET "Attrition" = 0
+   WHERE "Attrition" IS NULL
+   ```  
+
 3. **Menjalankan Metabase Menggunakan Docker (Local Machine)**
 
    Command Prompt
@@ -68,7 +77,7 @@ Berikut ini ada beberapa pertanyaan utama yang akan dicari jawabannya dalam proy
    docker start metabase
    ```
    
-5. **Koneksi dan Analisis Data di Metabase Dapat Diakses Melalui Browser di http://localhost:3000/setup**
+4. **Koneksi dan Analisis Data di Metabase Dapat Diakses Melalui Browser di http://localhost:3000/setup**
 
 ## Business Dashboard
 
