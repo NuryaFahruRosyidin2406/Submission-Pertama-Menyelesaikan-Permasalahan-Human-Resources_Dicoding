@@ -89,7 +89,7 @@ Dashboard ini terbagi menjadi empat area analisis utama, yaitu:
 3. **Analisis Pengaruh Finansial & Kompensasi:** Ini mengidentifikasi hubungan antara rata-rata pendapatan bulanan (*Average Monthly Income*) per departemen serta persentase kenaikan gaji (*Percent Salary Hike*) terhadap keputusan karyawan untuk keluar.
 4. **Kepuasan Kerja, Work-Life Balance, & Demografi Karyawan:** Ini menganalisis dampak tingkat kepuasan kerja (*Job Satisfaction*) yang dikombinasikan dengan *Work-Life Balance*, serta sebaran *attrition* berdasarkan kelompok usia (*Age Group*).
 
-**Link Dashboard:** [Masukkan Link Dashboard Metabase Kamu Di Sini]
+**Link Dashboard:** [-----]
 
 ## Conclusion
 
